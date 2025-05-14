@@ -2,25 +2,15 @@
     margin: 0;
     padding: 0;
 }
-.nav-bar{
-    background-color: black;
-    height: 60px;
-}
-.menu{
-    display: flex;
-    float: right;
-    align-items: center;
-    
-}
-.menu a{
-        color: white;
-        text-decoration: none;
-        padding: 20px;
+
+.navbar-nav .nav-link{
+        color: rgb(16, 16, 16);
+        font-weight: bold;
 
 
 }
 
-.menu a:hover{
+.navbar-nav .nav-link:hover{
     color: aqua;
 }
 .body{
@@ -29,9 +19,9 @@
 }
 
 #ab{
-    font-size: 80px;
+    font-size: 50px;
 }
 #description{
-    font-size: 20px;
-    padding: 5px;
+    font-size: 18px;
+    padding: 10px;
 }
